@@ -392,7 +392,7 @@ a {
 
 .work1 {
   background-color: black;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 #work1 {
@@ -471,7 +471,7 @@ a {
 }
 
 .work2 {
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 #work2 {
@@ -531,7 +531,7 @@ background-clip: text;
 }
 
 .work3{
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 #work3{
@@ -578,6 +578,67 @@ background-clip: text;
 #yep3 {
   padding: 100px 50px 100px 50px;
   background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 11.87%, #82B4FF 100%));
+background-clip: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  /* text-decoration-line: underline; */
+}
+
+
+.work4{
+  padding-top: 200px;
+}
+
+#work4{
+  width: 550px;
+height: 350px;
+transform: rotate(12.072deg);
+  flex-shrink: 0;
+  border-radius: 15px;
+  padding-right: 50px;
+}
+
+
+.big4 {
+  padding: 0px 50px 10px 50px;
+  font-family: Space Mono;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  background: var(--gradient-bless, linear-gradient(270deg, #FEBD81 11.87%, #FFE598 55.02%, #BFF4A6 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.kid4 {
+  padding: 0px 50px 30px 50px;
+  font-family: DM Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  background: var(--gradient-bless, linear-gradient(270deg, #FEBD81 11.87%, #FFE598 55.02%, #BFF4A6 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.link4 {
+  padding: 0px 0px;
+}
+
+#yep4 {
+  padding: 100px 0px 100px 50px;
+  background: var(--gradient-bless, linear-gradient(270deg, #FEBD81 11.87%, #FFE598 55.02%, #BFF4A6 100%));
 background-clip: text;
   background-clip: text;
   -webkit-background-clip: text;
