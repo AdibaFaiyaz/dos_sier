@@ -21,7 +21,7 @@ function Work() {
                     This website is basically a tool which can count the number of words you enter without any issue
                 </div>
                 <div className="link">
-                    <a id='yep' href="https://word-counter-o0bhjv7d6-adibas-projects.vercel.app" target='_blank'>https://word-counter-o0bhjv7d6-adibas-projects.vercel.app</a>
+                    <a id='yep' href="https://word-counter-o0bhjv7d6-adibas-projects.vercel.app" target='_blank'>WordCounter-App</a>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@ function Work() {
                         This project can calculate your equations and you can also change to dark mode!
                     </div>
                     <div className="link1">
-                        <a id='yep1' href="https://calculator-react-ecru.vercel.app" target='_blank'>https://calculator-react-ecru.vercel.app</a>
+                        <a id='yep1' href="https://calculator-react-ecru.vercel.app" target='_blank'>Calculator-App</a>
                     </div>
                 </div>
                 <div className="side">
@@ -63,7 +63,7 @@ function Work() {
                         This will calculate anyone’s age without any hassle just stem in your DOB and Voila!
                     </div>
                     <div className="link3">
-                        <a id='yep3' href="https://age-check-a49d54gcb-adibas-projects.vercel.app" target='_blank'>https://age-check-a49d54gcb-adibas-projects.vercel.app</a>
+                        <a id='yep3' href="https://age-check-a49d54gcb-adibas-projects.vercel.app" target='_blank'>AgeCheck-App</a>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@ function Work() {
 
                     </div>
                     <div className="link4">
-                        <a id='yep4' href="https://background-changer-bs9a1a7en-adibas-projects.vercel.app" target='_blank'>https://background-changer-bs9a1a7en-adibas-projects.vercel.app</a>
+                        <a id='yep4' href="https://background-changer-bs9a1a7en-adibas-projects.vercel.app" target='_blank'>ColorPicker-App</a>
                     </div>
                 </div>
                 <div className="side">

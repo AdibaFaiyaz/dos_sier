@@ -2,6 +2,8 @@
   background-color: black;
   text-align: center;
 } */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Nanum+Pen+Script&family=Space+Mono:wght@700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -52,8 +54,10 @@ a {
   color: #79db79;
   font-size: 20px;
   font-size: 20px;
-  border: 2px solid #FEBD81;
+  border: 1px solid #FEBD81;
   border-radius: 60px;
+  background: rgb(57,66,76);
+/* background: radial-gradient(circle, rgba(57,66,76,1) 0%, rgba(89,93,100,1) 100%); */
 }
 
 .smart:hover{
@@ -176,8 +180,8 @@ a {
   ;
   text-align: center;
 
-  font-family: Nanum Pen;
-  font-size: 20px;
+  font-family: Nanum Pen Script;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
@@ -264,7 +268,7 @@ a {
 .pretty {
   width: 445px;
   /* Quote */
-  font-family: Nanum Pen;
+  font-family: Nanum Pen Script;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -397,7 +401,7 @@ a {
 
 #hell {
   width: 354px;
-  font-family: Nanum Pen;
+  font-family: Nanum Pen Script;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -478,13 +482,13 @@ a {
 }
 
 #yep {
-  padding: 100px 50px 100px 50px;
+  padding: 100px 0px 100px 50px;
   background: var(--gradient-grape, linear-gradient(270deg, #DBA6F4 11.87%, #A981FE 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: DM Sans;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: 48px;
@@ -544,7 +548,7 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: DM Sans;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: 48px;
@@ -604,7 +608,7 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: DM Sans;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: 48px;
@@ -665,7 +669,7 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: DM Sans;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: 48px;

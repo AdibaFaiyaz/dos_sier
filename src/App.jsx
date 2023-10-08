@@ -1,4 +1,5 @@
 import './App.css'
+import './index.css'
 import Arrow from './components/Arrow'
 import Avatar from './components/Avatar'
 import Contact from './components/Contact'
@@ -10,8 +11,8 @@ import Nav from './components/Nav'
 import Project from './components/Project'
 import Skills from './components/Skills'
 import Work from './components/Work'
-import {BrowserRouter,Routes,Route} from "react-router-dom"
-import {HashLink as Link} from "react-router-hash-link"
+import {BrowserRouter} from "react-router-dom"
+
 
 function App() {
   
