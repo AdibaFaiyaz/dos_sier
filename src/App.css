@@ -29,20 +29,41 @@
 }
 
 ul {
-  margin: 10px 0px;
+  margin: 30px 20px;
 }
 
 li {
   display: inline;
+  padding: 0px 10px;
 }
 
 a {
   text-decoration: none;
   padding: 15px;
-  color: #C06F55;
+  color: #79db79;
   font-size: 20px;
+  font-size: 20px;
+  border-radius: 60px;
 }
 
+.smart{
+  text-decoration: none;
+  padding: 15px;
+  color: #79db79;
+  font-size: 20px;
+  font-size: 20px;
+  border: 2px solid #FEBD81;
+  border-radius: 60px;
+}
+
+.smart:hover{
+  background-color: rgb(31, 30, 30)k;
+  color: #b192f4;
+}
+
+.link4:hover{
+  color: aquamarine;
+}
 /* AVATAR */
 .av {
   height: 200px;
@@ -518,7 +539,7 @@ a {
 #yep1 {
   padding: 100px 50px 100px 50px;
   background: var(--gradient-strawberry, linear-gradient(270deg, #FF4646 11.87%, #FF9486 100%));
-background-clip: text;
+  background-clip: text;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -530,11 +551,11 @@ background-clip: text;
   /* text-decoration-line: underline; */
 }
 
-.work3{
+.work3 {
   padding-top: 200px;
 }
 
-#work3{
+#work3 {
   width: 550px;
   height: 350px;
   transform: rotate(-6.854deg);
@@ -578,7 +599,7 @@ background-clip: text;
 #yep3 {
   padding: 100px 50px 100px 50px;
   background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 11.87%, #82B4FF 100%));
-background-clip: text;
+  background-clip: text;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -591,14 +612,14 @@ background-clip: text;
 }
 
 
-.work4{
+.work4 {
   padding-top: 200px;
 }
 
-#work4{
+#work4 {
   width: 550px;
-height: 350px;
-transform: rotate(12.072deg);
+  height: 350px;
+  transform: rotate(12.072deg);
   flex-shrink: 0;
   border-radius: 15px;
   padding-right: 50px;
@@ -639,7 +660,7 @@ transform: rotate(12.072deg);
 #yep4 {
   padding: 100px 0px 100px 50px;
   background: var(--gradient-bless, linear-gradient(270deg, #FEBD81 11.87%, #FFE598 55.02%, #BFF4A6 100%));
-background-clip: text;
+  background-clip: text;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -649,4 +670,31 @@ background-clip: text;
   font-weight: 700;
   line-height: 48px;
   /* text-decoration-line: underline; */
+}
+
+/* CONTACT */
+.contact {
+  background-color: black;
+  padding-top: 100px;
+}
+
+.blocks {
+  display: flex;
+  padding:100px 30px 30px 30px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex: 1 0 0;
+}
+
+.b1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.final{
+  color: #FF4646;
 }

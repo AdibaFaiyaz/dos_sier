@@ -2,7 +2,7 @@ import React from 'react'
 
 function Design1() {
     return (
-        <div className='design1'>
+        <div id='design' className='design1'>
             <div className='intro'>
             Hi! I’m Adiba Faiyaz Frontend developer
             <div>
