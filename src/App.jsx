@@ -1,4 +1,3 @@
-
 import './App.css'
 import Arrow from './components/Arrow'
 import Avatar from './components/Avatar'
@@ -9,6 +8,7 @@ import Journey from './components/Journey'
 import Nav from './components/Nav'
 import Project from './components/Project'
 import Skills from './components/Skills'
+import Work from './components/Work'
 
 function App() {
   
@@ -24,6 +24,7 @@ function App() {
       <Project/>
       <Front/>
       <Arrow/>
+      <Work/>
     </>
   )
 }
