@@ -1,0 +1,638 @@
+@media screen and (max-width: 412px) {
+    .img1 {
+        width: 35px;
+        height: 35px;
+    }
+
+    ul {
+        margin: 10px 8px;
+    }
+
+    li {
+        display: inline;
+        padding: 0px 5px;
+    }
+
+    .smart {
+        text-decoration: none;
+        padding: 6px;
+        color: #79db79;
+        font-size: 10px;
+        border: 1px solid #FEBD81;
+        border-radius: 60px;
+        background: rgb(57, 66, 76);
+        /* background: radial-gradient(circle, rgba(57,66,76,1) 0%, rgba(89,93,100,1) 100%); */
+    }
+
+    .smart:hover {
+        background-color: rgb(31, 30, 30)k;
+        color: #b192f4;
+    }
+
+    .av {
+        height: 120px;
+    }
+
+
+    .frame {
+        height: 130px;
+        width: 140px;
+        background-color: rgb(183, 251, 133);
+        border: 25px solid rgb(199, 151, 249);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        padding-top: 5.5px;
+    }
+
+    .intro {
+        margin-top: 15px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        background: var(--gradient-grape, linear-gradient(270deg, #DBA6F4 11.87%, #A981FE 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Space Mono;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px;
+    }
+
+    .spiral {
+        width: fit-content;
+    }
+
+    .heading {
+        color: var(--Light, #FFF);
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px;
+        margin-bottom: 80px;
+        padding-top: 0px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+        margin: 10px;
+    }
+
+    .components {
+        display: flex;
+        padding: 7px 5px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 120px;
+        border: 3px solid var(--gradient-grape, #DBA6F4);
+        text-align: center;
+
+        font-family: DM Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+
+        background: var(--gradient-lima, linear-gradient(270deg, #FFE597 11.87%, #AAFF82 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text {
+        width: 250px;
+        text-align: center;
+        font-family: Nanum Pen Script;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 12px;
+        text-transform: uppercase;
+        background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 11.87%, #82B4FF 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .huge {
+        padding-left: 20px;
+        font-family: Space Mono;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px;
+        background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 11.87%, #82B4FF 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .small {
+        padding-left: 20px;
+        font-family: DM Sans;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 11.87%, #82B4FF 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .basic-text {
+        padding: 0px 10px 0px 40px;
+        color: var(--Light, #FFF);
+        font-family: DM Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    .framex {
+        padding: 0px 40px 0px 40px;
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+        align-self: stretch;
+    }
+
+    .old {
+        color: var(--Light, #FFF);
+        font-family: DM Sans;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        display: flex;
+        padding: 15px;
+        align-items: flex-start;
+        gap: 10px;
+        flex: 1 0 0;
+        border-radius: 20px;
+        background: var(--Gray, #282828);
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .pretty {
+        width: 280px;
+        /* Quote */
+        font-family: Nanum Pen Script;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        /* 100% */
+        text-transform: uppercase;
+        background: var(--gradient-mint, linear-gradient(270deg, #A9FE81 11.87%, #C0F0FF 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding: 100px 0px 0px 40px;
+    }
+
+    .side {
+        width: 100%;
+    }
+
+    .side-right {
+        width: 100%;
+        position: relative;
+    }
+
+    .huge1 {
+        padding-left: 20px;
+        font-family: Space Mono;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px;
+        background: var(--gradient-mint, linear-gradient(270deg, #A9FE81 11.87%, #C0F0FF 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .small1 {
+        padding-left: 20px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        background: var(--gradient-mint, linear-gradient(270deg, #A9FE81 11.87%, #C0F0FF 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .con {
+        width: 350px;
+        padding: 20px;
+    }
+
+    #up {
+        transform: rotate(-8.792deg);
+        flex-shrink: 0;
+    }
+
+    #down {
+        transform: rotate(7.219deg);
+        flex-shrink: 0;
+        border-radius: 22px;
+    }
+
+    #mid {
+        width: 300px;
+        padding: 30px 30px 30px 30px;
+    }
+
+    .basic-text {
+        padding: 0px 20px;
+        color: var(--Light, #FFF);
+        font-family: DM Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: center;
+        padding: 0px 40px;
+    }
+
+    .pretty {
+        width: 400px;
+        font-family: Nanum Pen Script;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        text-transform: uppercase;
+        background: var(--gradient-mint, linear-gradient(270deg, #A9FE81 11.87%, #C0F0FF 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 150px;
+    }
+
+
+    .front {
+        padding: 0px 30px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sparkle {
+        display: inline-block;
+        width: 60px;
+    }
+
+    .head {
+        display: inline-block;
+    }
+
+    #sparkle1 {
+        padding: 0px 70px;
+    }
+
+    #sparkle2 {
+        padding: 100px 70px 0px 70px;
+    }
+
+    .huge-text {
+        text-align: center;
+        font-family: Space Mono;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px;
+        background: var(--gradient-bless, linear-gradient(270deg, #FEBD81 11.87%, #FFE598 55.02%, #BFF4A6 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .arrow {
+        padding: 0px 40px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+
+    #hell {
+        width: 354px;
+        font-family: Nanum Pen Script;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        background: linear-gradient(80deg, #81B3FE -3.36%, #E0A6F4 108.29%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .work1 {
+        background-color: black;
+        padding: 0px 0px;
+    }
+
+    #work1 {
+        width: 340px;
+        height: 250px;
+        transform: rotate(-1.803deg);
+        flex-shrink: 0;
+    }
+
+    .right {
+        width: 100%;
+        align-items: center;
+    }
+
+    .big {
+        padding: 0px 30px 10px 30px;
+        /* Big-Title */
+        font-family: Space Mono;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px;
+        /* 123.077% */
+        background: var(--gradient-grape, linear-gradient(270deg, #DBA6F4 11.87%, #A981FE 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .kid {
+        padding: 0px 30px 10px 30px;
+        /* Body/Bold */
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* 150% */
+        background: var(--gradient-grape, linear-gradient(270deg, #DBA6F4 11.87%, #A981FE 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .content {
+        width: 300px;
+        padding: 0px 30px 10px 30px;
+        color: var(--Light, #FFF);
+        font-family: DM Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    .link {
+        padding: 0px 0px;
+    }
+
+    #yep {
+        padding: 0px 30px 10px 30px;
+        background: var(--gradient-grape, linear-gradient(270deg, #DBA6F4 11.87%, #A981FE 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: DM Sans;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* text-decoration-line: underline; */
+    }
+
+    .work2 {
+        padding-top: 100px;
+    }
+
+    #work2 {
+        width: 300px;
+        height: 200px;
+        transform: rotate(7.07deg);
+        flex-shrink: 0;
+        border-radius: 82px;
+        padding: 30px;
+    }
+
+
+    .big1 {
+        padding: 0px 30px 10px 30px;
+        font-family: Space Mono;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px;
+        background: var(--gradient-strawberry, linear-gradient(270deg, #FF4646 11.87%, #FF9486 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .kid1 {
+        padding: 0px 30px 10px 30px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        background: var(--gradient-strawberry, linear-gradient(270deg, #FF4646 11.87%, #FF9486 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+    .link1 {
+        padding: 0px 0px;
+    }
+
+    #yep1 {
+        padding: 0px 30px 10px 30px;
+        background: var(--gradient-strawberry, linear-gradient(270deg, #FF4646 11.87%, #FF9486 100%));
+        background-clip: text;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: DM Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* text-decoration-line: underline; */
+    }
+
+    .work3 {
+        padding-top: 100px;
+    }
+
+    #work3 {
+        width: 300px;
+        height: 200px;
+        transform: rotate(-6.854deg);
+        flex-shrink: 0;
+        border-radius: 15px;
+        padding-left: 50px;
+    }
+
+
+    .big3 {
+        padding: 0px 30px 10px 30px;
+        font-family: Space Mono;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px;
+        background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 11.87%, #82B4FF 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .kid3 {
+        padding: 0px 30px 10px 30px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 11.87%, #82B4FF 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+    .link3 {
+        padding: 0px 0px;
+    }
+
+    #yep3 {
+        padding: 0px 30px 10px 30px;
+        background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 11.87%, #82B4FF 100%));
+        background-clip: text;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: DM Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* text-decoration-line: underline; */
+    }
+
+
+    .work4 {
+        padding-top: 100px;
+    }
+
+    #work4 {
+        width: 300px;
+        height: 200px;
+        transform: rotate(12.072deg);
+        flex-shrink: 0;
+        border-radius: 25px;
+        padding-right: 50px;
+        padding: 50px;
+    }
+
+
+    .big4 {
+        padding: 0px 30px 10px 30px;
+        font-family: Space Mono;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px;
+        background: var(--gradient-bless, linear-gradient(270deg, #FEBD81 11.87%, #FFE598 55.02%, #BFF4A6 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .kid4 {
+        padding: 0px 30px 10px 30px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        background: var(--gradient-bless, linear-gradient(270deg, #FEBD81 11.87%, #FFE598 55.02%, #BFF4A6 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+    .link4 {
+        padding: 0px 0px;
+    }
+
+    #yep4 {
+        padding: 0px 30px 10px 30px;
+        background: var(--gradient-bless, linear-gradient(270deg, #FEBD81 11.87%, #FFE598 55.02%, #BFF4A6 100%));
+        background-clip: text;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: DM Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* text-decoration-line: underline; */
+    }
+
+    .contact {
+        background-color: black;
+        /* padding-top: 100px; */
+    }
+
+    .blocks {
+        display: flex;
+        /* padding:100px 30px 30px 30px; */
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex: 1 0 0;
+    }
+
+    .b1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .final {
+        color: #FF4646;
+    }
+
+}
