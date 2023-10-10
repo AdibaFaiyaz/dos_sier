@@ -62,7 +62,7 @@
     }
 
     .spiral {
-        width: fit-content;
+        width: 300px;
     }
 
     .heading {
@@ -620,7 +620,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 7px;
         flex: 1 0 0;
     }
 
