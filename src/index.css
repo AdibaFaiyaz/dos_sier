@@ -1,4 +1,13 @@
 @media screen and (max-width: 412px) {
+
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
     .img1 {
         width: 35px;
         height: 35px;
@@ -636,9 +645,18 @@
         font-size: 15px;
     }
 
-    .low-end{
+    .low-end {
         height: 30px;
         width: 30px;
     }
+
+    .footer{
+        height: 100px;
+      }
+      
+      ul{
+        display: flex;
+        justify-content: space-between;
+      }
 
 }

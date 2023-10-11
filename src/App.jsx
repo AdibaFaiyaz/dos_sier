@@ -12,6 +12,7 @@ import Project from './components/Project'
 import Skills from './components/Skills'
 import Work from './components/Work'
 import {BrowserRouter} from "react-router-dom"
+import Footer from './components/Footer'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Arrow/>
       <Work/>
       <Contact/>
+      <Footer/>
       </BrowserRouter>
      </>
   )

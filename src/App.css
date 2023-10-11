@@ -1,7 +1,7 @@
-/* #root {
+#root {
   background-color: black;
-  text-align: center;
-} */
+  
+}
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Nanum+Pen+Script&family=Space+Mono:wght@700&display=swap');
 
@@ -630,7 +630,7 @@ a {
   transform: rotate(12.072deg);
   flex-shrink: 0;
   border-radius: 15px;
-  padding-right: 50px;
+  padding-left: 50px;
 }
 
 
@@ -705,4 +705,13 @@ a {
 
 .final{
   color: #FF4646;
+}
+
+.footer{
+  height: 100px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
 }
