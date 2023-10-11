@@ -4,10 +4,16 @@
 } */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Nanum+Pen+Script&family=Space+Mono:wght@700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
+
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
+
 
 /* NAVBAR */
 .nav {
@@ -419,8 +425,8 @@ a {
 }
 
 #work1 {
-  width: 668.989px;
-  height: 428.402px;
+  width: 662px;
+  height: 422px;
   transform: rotate(-1.803deg);
   flex-shrink: 0;
 }
@@ -430,7 +436,7 @@ a {
 }
 
 .right {
-  width: 50%;
+  width: 45%;
   display: inline-block;
   align-items: center;
 }
