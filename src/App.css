@@ -1,9 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Nanum+Pen+Script&family=Space+Mono:wght@700&display=swap');
 
-#root {
+#root{
   background-color: black;
-  
 }
+
+/* #root {
+  background: linear-gradient(-45deg, #1b1a1a, #3f3f3f, #2b2b2b, #070707);
+            animation: gradient 15s ease infinite;    
+} */
+
+/* @keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+} */
 
 body
 {
@@ -19,7 +37,7 @@ body
 .nav {
   height: 70px;
   flex-shrink: 0;
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   justify-content: space-between;
 }
@@ -65,7 +83,7 @@ a {
 }
 
 .smart:hover{
-  background-color: rgb(31, 30, 30)k;
+  background-color: rgb(31, 30, 30);
   color: #b192f4;
 }
 
@@ -79,7 +97,7 @@ a {
 
 
 .avatar {
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   justify-content: center;
 }
@@ -97,7 +115,7 @@ a {
 
 /* INTRODUCTION */
 .design1 {
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   justify-content: center;
 }
@@ -121,7 +139,7 @@ a {
 /* SKILLS */
 
 .skill {
-  background-color: black;
+  /* background-color: black; */
 
 }
 
@@ -169,7 +187,7 @@ a {
 
 /* JOURNEY */
 .journey {
-  background-color: black;
+  /* background-color: black; */
 
 }
 
@@ -200,7 +218,7 @@ a {
 /* EDUCATION */
 
 .edu {
-  background-color: black;
+  /* background-color: black; */
 }
 
 .huge {
@@ -290,7 +308,7 @@ a {
 
 .project {
   padding-top: 80px;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .huge1 {
@@ -368,7 +386,7 @@ a {
 
 .front {
   padding-top: 80px;
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   justify-content: center;
 }
@@ -398,7 +416,7 @@ a {
 
 .arrow {
   padding-top: 80px;
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   justify-content: center;
 }
@@ -420,7 +438,7 @@ a {
 /* WORK */
 
 .work1 {
-  background-color: black;
+  /* background-color: black; */
   padding-top: 100px;
 }
 
@@ -682,7 +700,7 @@ a {
 
 /* CONTACT */
 .contact {
-  background-color: black;
+  /* background-color: black; */
   padding-top: 100px;
 }
 
